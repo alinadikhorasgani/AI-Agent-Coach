@@ -17,14 +17,14 @@ from openai import OpenAI
 
 # USDA FoodData Central API key
 # IMPORTANT: Replace "PYZyG81SJfDvafhb47e50TmPVNxhzmcJUIf5BKQm" with your actual FDC API key.
-FDC_API_KEY = "PYZyG81SJfDvafhb47e50TmPVNxhzmcJUIf5BKQm"
+FDC_API_KEY = "PY......................."
 
 # LLM API key
 # If you do not want to use an LLM, leave this empty: ""
-LLM_API_KEY = "sk-L5Nt7wxLfVi46WosA1SSjra3s3VgWvxcj7IJywS2N4oPOl4C"
+LLM_API_KEY = "s.........................."
 
 # LLM provider settings
-LLM_BASE_URL = "https://api.gapapi.com/v1"
+LLM_BASE_URL = ""
 LLM_MODEL = "deepseek-chat"
 
 if not FDC_API_KEY or FDC_API_KEY == "YOUR_FDC_API_KEY_HERE":
