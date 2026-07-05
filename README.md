@@ -1,9 +1,3 @@
-Got it — you want a **GitHub-ready technical README for the code you provided (AI Nutrition Coach system)**.
-
-Here is a clean, professional **GitHub documentation (README.md)** written in English:
-
----
-
 # 🥗 AI Nutrition Coach (LangGraph + PubMed + PDF Report System)
 
 ## Overview
