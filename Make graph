@@ -1,0 +1,8 @@
+from IPython.display import Image, display
+
+try:
+    # This generates a PNG via a web service (Mermaid.ink)
+    display(Image(coach_app.get_graph().draw_mermaid_png()))
+except Exception:
+    # If the above fails due to local library issues
+    print("Graph visualization failed. Please check local dependencies.")
